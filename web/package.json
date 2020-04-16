@@ -4,7 +4,7 @@
   "description": "Neo4j movies",
   "main": "",
   "dependencies": {
-    "axios": "^0.9.1",
+    "axios": "^0.19.2",
     "classnames": "^2.2.3",
     "cookies-js": "^1.2.2",
     "detect-node": "^2.0.3",
