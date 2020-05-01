@@ -46,7 +46,13 @@
     "randomstring": "^1.1.5",
     "serve-favicon": "^2.3.0",
     "should": ">= 0.6.3",
-    "swagger-jsdoc": "^1.7.0"
+    "swagger-jsdoc": "^1.7.0",
+    "snyk": "^1.316.1"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
+  },
+  "snyk": true
 }
